@@ -29,6 +29,13 @@ module.exports = {
         name: `content`,
       },
     },
+    {
+    resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://mrekaya.com`,
+      stripQueryString: true,
+    },
+  },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
