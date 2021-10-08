@@ -7,9 +7,14 @@ import Logo from "./logo"
 import Navigation from "./navigation"
 
 import "../assets/scss/style.scss"
+//convertkit style
+import "../assets/scss/stylecovertkit.css"
+//
 import Footer from "./footer"
 import Theme from "../components/theme"
 import Search from "../components/search"
+import ConvertKitForm from 'convertkit-react'
+
 
 const query = graphql`
   query LayoutQuery {
@@ -27,7 +32,7 @@ const query = graphql`
 const Layout = ({ children, className, props }) => {
   const { site, siteSearchIndex } = useStaticQuery(query)
   const { siteTitle } = site.siteMetadata
-
+  const MY_FORM_ID = 2668687
   return (
     <div className="primary-container">
       <Header>
@@ -44,6 +49,11 @@ const Layout = ({ children, className, props }) => {
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>
+      
+      <div className="App">
+      <ConvertKitForm template="mills" formId = {MY_FORM_ID} headingText="Join the Newsletter" />
+      </div>
+
       <Footer />
     </div>
   )

@@ -24,6 +24,7 @@
     "@babel/core": "^7.15.5",
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.6.0",
+    "convertkit-react": "^1.5.5",
     "gatsby": "^3.1.2",
     "gatsby-plugin-canonical-urls": "^3.14.0",
     "gatsby-plugin-google-analytics": "^3.1.0",

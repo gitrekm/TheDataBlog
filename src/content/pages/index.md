@@ -1,12 +1,12 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Apache Airflow Guide
+tagline: Hands-on guide
+featuredImage: /assets/undraw_control_panel1_20gm.png
 cta:
-  ctaText: Know more
+  ctaText: Get the guide immediately
   ctaLink: /about
 ---
 
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Step-by-step guide to build and test your data pipline 

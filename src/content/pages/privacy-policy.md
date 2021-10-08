@@ -1,7 +1,7 @@
 ---
-template: about-page
-slug: /about
-title: About the Data Blog
+template: privacy-policy
+slug: /privacy-policy
+title: Privacy Policy
 ---
 
 Thank you! Now say "nuclear wessels"! No! Don't jump! A sexy mistake. Anyone who laughs is a communist!
